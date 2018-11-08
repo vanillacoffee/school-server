@@ -9,6 +9,7 @@ cache_time = 86400 * 7
 
 application_settings = {
     'debug': DEBUG,
+    'static_path': os.path.join(os.path.dirname(__file__), "static")
 }
 
 DSN = ''
